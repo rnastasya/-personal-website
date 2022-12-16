@@ -1,0 +1,78 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.bgimage {
+    height:100vh;
+    background: linear-gradient( rgba(29, 165, 25, 0.937), rgb(240, 255, 255));
+    background-size:cover;
+    position:relative;
+}
+.mainBannerText {
+    font-size: 350%; 
+    color: rgb(17, 15, 15);
+    position: absolute;
+    top: 30%;
+    left: 8.5%;
+   } 
+
+.imageAboutPage {
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+}
+
+.text-about {
+  text-align: justify;
+  width: 400px;
+}
+
+.text-about {
+  word-spacing: -0.1ex;
+  margin-top: 1em;
+}
+
+.nav-link{
+    color: aliceblue;
+    white-space: nowrap; 
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(215, 227, 210);
+    background-color: rgb(116, 197, 34, 0.937);
+    transform: scale(0);
+    transition: all .1s;
+}
+
+.nav-link:hover::after {
+    transform: scale(1);
+}
+
+.navbar-toggler{
+    border-color:transparent;
+    color: transparent;
+}
+
+.footer
+{
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+#about, #experience, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 10rem;
+}
